@@ -10,7 +10,7 @@ Assignments
 | ![task-2](requirement/task-2.jpeg) | ![out2](out/out-2.png) |
 | ![task-4](requirement/task-4.jpeg) | ![out4](out/out-4.png) |
 
-### Reading rasks
+### Reading Tasks
 
 - [Home](https://www.w3schools.com/html/default.asp)
 - [Introduction](https://www.w3schools.com/html/html_intro.asp)
