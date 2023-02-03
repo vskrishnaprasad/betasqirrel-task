@@ -2,13 +2,15 @@
 
 Assignments
 
+[live](https://kpmakonics.github.io/betasqirrel-task/)
+
 ## Tasks
 
-| Requirements                       | Output                 |
-| ---------------------------------- | ---------------------- |
-| ![task-1](requirement/task-1.jpeg) | ![out1](out/out-1.png) |
-| ![task-2](requirement/task-2.jpeg) | ![out2](out/out-2.png) |
-| ![task-4](requirement/task-4.jpeg) | ![out4](out/out-4.png) |
+| Requirements                              | Output                        |
+| ----------------------------------------- | ----------------------------- |
+| ![task-1](images/requirement/task-1.jpeg) | ![out1](images/out/out-1.png) |
+| ![task-2](images/requirement/task-2.jpeg) | ![out2](images/out/out-2.png) |
+| ![task-4](images/requirement/task-4.jpeg) | ![out4](images/out/out-4.png) |
 
 ### Reading Tasks
 
