@@ -6,26 +6,26 @@ Assignments
 
 ## Linux-commands
 
-- ls - list contents of a directory
-- ls -a -show hidden files
-- cd - change current directory
-- cd . - one step back from the current folder
-- cd .. - two step back
-- pwd -display current working directory path
-- cat - display contents of a file
-- clear - for clear the page
-- mkdir - for creating folder
-  git reset --hard - update current branch with no changes
+- `ls` - list contents of a directory
+- `ls -a` -show hidden files
+- `cd` - change current directory
+- `cd .` - one step back from the current folder
+- `cd ..` - two step back
+- `pwd` -display current working directory path
+- `cat` - display contents of a file
+- `clear` - for clear the page
+- `mkdir` - for creating folder
+- **git reset** - This command undose all the commit after the specified commit and preserves the changes locally `git reset [commit]`
 
 ## git-commands
 
-1. git config- config git user ex: git config --global user.name "enter user name"
-2. git config --global user.email "enter email"
-3. git clone - clone a remot git repositery to your local Ex: git clone "add https link or ssh key"
-4. git add - add your file changes to git
-5. git status - see the current status of changes and updates
-6. git commit - commit the changes to git (git commit -m " enter a message")
-7. git push - push local commits to repo
+1. **git config** - config git user ex: `git config --global user.name "enter user name"`
+2. **git config email** - `git config --global user.email "enter email"`
+3. **git clone** - clone a remot git repositery to your local Ex: `git clone "git@github.com:kpmakonics/betasqirrel-task.git"` or `git clone https://github.com/kpmakonics/betasqirrel-task.git`
+4. **git add** - add your file changes to git ( `git add .` )
+5. **git status** - see the current status of changes and updates ( `git status` )
+6. **git commit** - commit the changes to git ( `git commit -m " enter a message"` )
+7. **git push** - push local commits to repo ( `git push` )
 
 ## Tasks
 
