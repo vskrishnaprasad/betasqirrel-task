@@ -1,22 +1,22 @@
 body {
-  background-color: #443a41;
+  background-color: #322121;
   margin: 0 auto;
 }
 #navbar {
-  background-color: #632955;
+  background-color: #543561;
   height: 80px;
   margin-bottom: 15px;
   display: flex;
   justify-content: space-between;
 }
 #main-container {
-  background-color: #c5d1cf;
+  background-color: #d1d8e8;
   height: 230px;
   margin-bottom: 20px;
   padding: 10px;
 }
 .boxes {
-  background-color: #c5d1cf;
+  background-color: #d1d8e8;
   height: 200px;
   width: calc((100% / 3) - 40px);
   float: left;

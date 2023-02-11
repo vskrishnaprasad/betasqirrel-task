@@ -4,13 +4,13 @@ body {
 }
 #navbar {
   height: 90px;
-  background-color: #55543a;
+  background-color: #55533a;
   display: flex;
   border-bottom: #eeeee4 solid 1px;
 }
 .left {
   float: left;
-  background-color: #55543a;
+  background-color: #55533a;
   display: flex;
 }
 .left img {
@@ -25,7 +25,7 @@ body {
   float: right;
   float: right;
   justify-content: space-between;
-  background-color: #55543a;
+  background-color: #55533a;
 }
 .right img {
   height: 60px;
@@ -46,7 +46,7 @@ body {
   text-decoration: underline;
 }
 .side-container {
-  background-color: #55543a;
+  background-color: #55533a;
   height: 580px;
   width: calc(15%);
   padding: 5px;
@@ -71,7 +71,7 @@ body {
   margin-top: 50px;
 }
 .container2 {
-  background-color: #ff3e0c;
+  background-color: #ff3e0b;
   height: 150px;
   width: calc(75% / 4);
   color: #fff;
@@ -83,7 +83,7 @@ body {
   margin-top: 50px;
 }
 .container3 {
-  background-color: #ae1eee;
+  background-color: #ae1eef;
   height: 150px;
   width: calc(75% / 4);
   text-align: center;
@@ -94,7 +94,7 @@ body {
   margin-top: 50px;
 }
 .container4 {
-  background-color: #1de657;
+  background-color: #1de757;
   height: 150px;
   width: calc(75% / 4);
   display: flex;
@@ -105,7 +105,7 @@ body {
   margin-top: 50px;
 }
 .one {
-  background-color: #ff3e0c;
+  background-color: #ff3e0b;
   height: 190px;
   width: 190px;
   border-radius: 50%;
@@ -137,7 +137,7 @@ body {
   padding: 55px;
 }
 .three {
-  background-color: #ae1eee;
+  background-color: #ae1eef;
   height: 190px;
   width: 190px;
   border-radius: 50%;
@@ -159,7 +159,7 @@ body {
   border-radius: 50%;
   display: flex;
   align-self: center;
-  background-color: #1de657;
+  background-color: #1de757;
 }
 .innertwo {
   height: 170px;
@@ -176,7 +176,7 @@ body {
   display: flex;
   align-self: center;
   justify-content: center;
-  background-color: #fd6b57;
+  background-color: #fd6a56;
 }
 .inner {
   height: 90px;
@@ -184,7 +184,7 @@ body {
   border-radius: 50%;
   display: flex;
   align-self: center;
-  background-color: #ae1eee;
+  background-color: #ae1eef;
 }
 .bar-container {
   height: 190px;
@@ -207,7 +207,7 @@ body {
   float: left;
   margin: 0px;
   margin-top: 10px;
-  background-color: #1de657;
+  background-color: #1de757;
 }
 .bar3 {
   height: 100px;
@@ -215,7 +215,7 @@ body {
   margin: 10px;
   margin-top: 90px;
   float: left;
-  background-color: #ff3e0c;
+  background-color: #ff3e0b;
 }
 .bar4 {
   height: 120px;
@@ -223,7 +223,7 @@ body {
   margin: 10px;
   margin-top: 70px;
   float: left;
-  background-color: #ae1eee;
+  background-color: #ae1eef;
 }
 .bar5 {
   height: 70px;
@@ -239,7 +239,7 @@ body {
   margin: 10px;
   margin-top: 40px;
   float: left;
-  background-color: #574c4a;
+  background-color: #584c4a;
 }
 .bar7 {
   height: 50px;
@@ -247,5 +247,5 @@ body {
   margin: 10px;
   margin-top: 140px;
   float: left;
-  background-color: #fd6b57;
+  background-color: #fd6a56;
 }
