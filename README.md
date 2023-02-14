@@ -4,6 +4,9 @@ Assignments
 
 [live](https://kpmakonics.github.io/betasqirrel-task/)
 
+[stackoverflow](https://stackoverflow.com/users/21194323/krishnaprasad-v-s)
+[linkedin](https://www.linkedin.com/in/krishnaprasad-v-s-927458171)
+
 ## Linux-commands
 
 - `ls` - list contents of a directory
