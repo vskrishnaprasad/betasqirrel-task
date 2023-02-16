@@ -29,6 +29,11 @@ Assignments
 5. **git status** - see the current status of changes and updates ( `git status` )
 6. **git commit** - commit the changes to git ( `git commit -m " enter a message"` )
 7. **git push** - push local commits to repo ( `git push` )
+8. `git reset` - This command undoes all the commits after the specified commit and preserves the changes locally. EX:`git reset [commit]`
+9. `git diff` - see the changes on each file
+10. `git log` - see commit history
+11. `git stash` - stash your uncommitted changes
+12. `git status` - to see the current changes as list
 
 ## Tasks
 

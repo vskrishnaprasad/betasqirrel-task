@@ -56,3 +56,28 @@ body {
   padding: 10px;
   text-decoration: none;
 }
+@media only screen and (max-width: 750px) {
+  #main-container {
+    align-self: center;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    margin: 5px;
+  }
+  a {
+    display: none;
+  }
+  .second-container {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .boxes {
+    width: auto;
+    height: auto;
+    margin: 5px;
+  }
+}
