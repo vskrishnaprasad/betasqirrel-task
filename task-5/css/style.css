@@ -219,24 +219,24 @@ select {
     width: 100vw;
     height: 100vh;
     display: flex;
-    flex-direction: column;
   }
   .right-container {
     width: auto;
     height: auto;
   }
   .formside-two {
-    margin-top: 75%;
-    float: left;
-    justify-content: left;
     display: flex;
     flex-direction: column;
-    margin-left: -50%;
+    margin-left: 0px;
+  }
+  .main-form {
+    flex-direction: column;
+    display: flex;
   }
   .sub {
     align-self: auto;
-    margin-top: 65%;
     float: left;
+    margin-top: 8px;
     flex-direction: column;
   }
   .button {
@@ -251,30 +251,43 @@ select {
   .address {
     display: flex;
     float: left;
+    margin-left: 2%;
   }
   .checkbox {
     display: flex;
     float: left;
-    margin-left: 7%;
+    margin-left: 2%;
     flex-direction: column;
   }
   .radiofeild {
     flex-direction: column;
   }
   input[type="email"] {
-    width: auto;
+    width: 80vw;
     height: 30px;
   }
   input[type="text"] {
-    width: auto;
+    width: 80vw;
     height: 30px;
   }
   input[type="tel"] {
-    width: auto;
+    width: 80vw;
     height: 30px;
   }
   select {
-    width: auto;
+    width: 80vw;
     height: 35px;
+  }
+  .radio {
+    margin-top: 25px;
+  }
+  .radiofeild {
+    margin-top: 8px;
+  }
+  .check-1 {
+    margin-left: 3%;
+  }
+  .addressfeild {
+    margin-left: 2%;
   }
 }

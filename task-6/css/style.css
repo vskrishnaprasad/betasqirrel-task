@@ -105,3 +105,26 @@ table {
   margin-left: 5%;
   border-collapse: collapse;
 }
+@media only screen and (max-width: 770px) {
+  .side-container {
+    display: none;
+    width: 0px;
+  }
+  .main-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+  }
+  .main-table {
+    overflow: auto;
+    justify-content: center;
+    width: 100%;
+    align-self: center;
+  }
+  .nav2-right {
+    margin-left: 45%;
+  }
+  button {
+    width: 25vw;
+  }
+}
