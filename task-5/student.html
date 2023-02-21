@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="left-nav img">
+        <img src="images/logo.png" alt="logoimge" />
+        <h2>One School</h2>
+      </div>
+      <div class="right-nav img">
+        <img src="images/person.jpg" alt="logoimge" />
+      </div>
+    </nav>
+    <div class="main-container">
+      <div class="side-container">
+        <ul>
+          <li><h4>STUDENTS</h4></li>
+          <li><h4>STAFF</h4></li>
+          <li><h4>EXAMS</h4></li>
+        </ul>
+      </div>
+      <div class="right-container">
+        <div class="student">STUDENT REGISTRATION</div>
+        <div class="formside">
+          <div class="formside-one">
+            <form>
+              <div class="form-1 name">
+                <label for="First-Name">
+                  First Name<span class="red-text">*</span> :</label
+                >
+              </div>
+              <div class="form-1 namefeild">
+                <input
+                  type="text"
+                  placeholder="Enter your first name     "
+                  id="First-Name"
+                />
+              </div>
+              <div class="form-1 mobile">
+                <label for="mobile"
+                  >Mobile<span class="red-text">*</span> :</label
+                >
+              </div>
+              <div class="form-1 mobilefeild">
+                <input
+                  type="tel"
+                  placeholder="Enter your mobile number"
+                  id="mobile"
+                />
+              </div>
+              <div class="form-1 branch">
+                <label for="branch">
+                  Branch<span class="red-text">*</span> :</label
+                >
+              </div>
+              <div class="form-1 branchfeild">
+                <select
+                  placeholder="Select branch you like"
+                  name="branch"
+                  id="branch"
+                >
+                  <option value="">Select branch you like</option>
+                  <option value="EEE">EEE</option>
+                  <option value="CS">CS</option>
+                </select>
+              </div>
+            </form>
+          </div>
+          <div class="formside-two">
+            <form>
+              <div class="form-2 lastname">
+                <label for="Last-Name">
+                  Last Name<span class="red-text">*</span> :</label
+                >
+              </div>
+              <div class="form-2 lastnamefeild">
+                <input
+                  type="text"
+                  placeholder="Enter your last name"
+                  id="Last-Name"
+                />
+              </div>
+              <div class="form-2 email">
+                <label for="email">
+                  Email<span class="red-text">*</span> :</label
+                >
+              </div>
+              <div class="form-2 emailfeild">
+                <input type="email" placeholder="Enter your email" id="email" />
+              </div>
+              <div class="form-2 radio">
+                <label for="radio"> Do You Need Hostel Facility :</label>
+              </div>
+              <div class="form-2 radiofeild">
+                <input type="radio" id="yes" name="hostel" value="Yes" />
+                <label for="yes">Yes</label>
+                <input type="radio" id="no" name="hostel" value="No" />
+                <label for="no">No</label>
+              </div>
+            </form>
+          </div>
+          <form>
+            <div class="sub">Choose Additional Subjects :</div>
+            <div class="checkbox">
+              <div class="check-1">
+                <input
+                  type="checkbox"
+                  id="subject1"
+                  name="subject1"
+                  value="cyber"
+                />
+                <label for="subject1"> Cyber Security</label>
+              </div>
+              <div class="check-2">
+                <input
+                  type="checkbox"
+                  id="subject2"
+                  name="subject2"
+                  value="artificial"
+                />
+                <label for="subject2"> Artificial Intelligence</label>
+              </div>
+              <div class="check-3">
+                <input
+                  type="checkbox"
+                  id="subject3"
+                  name="subject3"
+                  value="blockchain"
+                />
+                <label for="subject3"> Blockchain</label>
+              </div>
+              <div class="check-4">
+                <input
+                  type="checkbox"
+                  id="subject4"
+                  name="subject4"
+                  value="iot"
+                />
+                <label for="subject4"> IoT</label>
+              </div>
+              <div class="check-5">
+                <input
+                  type="checkbox"
+                  id="subject5"
+                  name="subject5"
+                  value="robotics"
+                />
+                <label for="subject5"> Robotics</label>
+              </div>
+            </div>
+            <div class="main-address">
+              <div class="address">
+                <label for="premanent adress">
+                  Premanent Address<span class="red-text">*</span> :</label
+                >
+              </div>
+              <div class="addressfeild">
+                <textarea
+                  type="text"
+                  placeholder="Enter your full address"
+                  id="premanent address"
+                  cols="50"
+                  rows="10"
+                ></textarea>
+              </div>
+            </div>
+          </form>
+          <div class="button">
+            <button class="clear" type="button" onclick="">CLEAR</button>
+            <button class="submit" type="button" onclick="">SUBMIT</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

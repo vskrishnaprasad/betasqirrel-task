@@ -1,0 +1,280 @@
+body {
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+nav {
+  height: 68px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  border-bottom: #c4c4c4 solid 2px;
+}
+.left-nav {
+  height: 50px;
+  float: left;
+  display: flex;
+  background-color: #ffffff;
+  align-self: center;
+}
+.left-nav img {
+  height: 40px;
+  width: 30px;
+  align-self: center;
+}
+.left-nav h2 {
+  color: #5e5e5e;
+  padding: 0 8px;
+  align-self: center;
+}
+.right-nav {
+  float: right;
+  align-self: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+.right-nav img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  float: right;
+  justify-content: space-between;
+}
+.main-container {
+  background-color: #ffffff;
+  display: flex;
+}
+.side-container {
+  background-color: #ffffff;
+  height: 110vh;
+  width: calc(13%);
+  padding: 10px;
+  float: left;
+  border-right: #c4c4c4 solid 2px;
+}
+li {
+  padding-left: 30px;
+  padding-bottom: 0px;
+  color: #55533a;
+}
+ul {
+  padding: 0;
+}
+a {
+  color: #5e5e5e;
+}
+.student {
+  float: left;
+  margin-left: 10px;
+  padding-left: 20px;
+  padding-top: 25px;
+  width: 100%;
+  margin-bottom: 25px;
+  text-decoration: underline;
+}
+.right-container {
+  width: auto;
+}
+.formside {
+  float: left;
+  height: 30%;
+  width: 100%;
+  background-color: #ffffff;
+}
+.formside-one {
+  height: 100%;
+  width: 40vw;
+  float: left;
+  margin-left: 30px;
+  background-color: #ffffff;
+}
+.formside-two {
+  height: 100%;
+  width: 40vw;
+  float: left;
+  padding-left: 30px;
+  background-color: #ffffff;
+}
+.red-text {
+  color: red;
+}
+input[type="text"] {
+  width: 27.4vw;
+  height: 30px;
+}
+input[type="tel"] {
+  width: 27.4vw;
+  height: 30px;
+}
+input[type="email"] {
+  width: 27.4vw;
+  height: 30px;
+}
+select {
+  width: 28vw;
+  height: 35px;
+}
+.radio {
+  margin-top: 10px;
+}
+.sub {
+  float: left;
+  margin-left: 10px;
+  padding-left: 20px;
+  padding-top: 15px;
+  width: 100%;
+  margin-bottom: 15px;
+  margin-top: 20px;
+  font-size: larger;
+}
+.checkbox {
+  float: left;
+  margin-bottom: 20px;
+  padding-left: 0px;
+  padding-top: 8px;
+  width: 100%;
+  font-size: larger;
+  display: flex;
+}
+.button {
+  margin-top: 4%;
+  margin-left: 55%;
+  display: flex;
+  justify-content: safe;
+}
+.clear {
+  background-color: #ff7261;
+  color: white;
+  border-radius: 20px;
+  padding: 15px;
+  border: 0;
+  width: 10vw;
+  margin-right: 20px;
+}
+.submit {
+  background-color: #42b689;
+  color: #ffffff;
+  border-radius: 20px;
+  padding: 15px;
+  border: 0;
+  width: 10vw;
+  margin-right: 20px;
+}
+.name,
+.namefeild,
+.mobile,
+.mobilefeild,
+.branch,
+.branchfeild,
+.lastname,
+.lastnamefeild,
+.email,
+.emailfeild {
+  margin-bottom: 10px;
+}
+.radio {
+  margin-top: 10px;
+}
+.radiofeild {
+  margin-top: 20px;
+}
+.final-check {
+  float: left;
+  justify-content: start;
+}
+.main-check {
+  float: left;
+}
+.main-address {
+  margin-left: 25px;
+}
+.addressfeild {
+  width: 27.4vw;
+  height: auto;
+}
+.check-1 {
+  margin-left: 2%;
+}
+.check-2 {
+  margin-left: 3%;
+}
+.check-3 {
+  margin-left: 3%;
+}
+.check-4 {
+  margin-left: 3%;
+}
+.check-5 {
+  margin-left: 3%;
+}
+.address {
+  margin-bottom: 1%;
+}
+@media only screen and (max-width: 770px) {
+  .side-container {
+    display: none;
+    width: 0px;
+  }
+  .main-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .right-container {
+    width: auto;
+    height: auto;
+  }
+  .formside-two {
+    margin-top: 75%;
+    float: left;
+    justify-content: left;
+    display: flex;
+    flex-direction: column;
+    margin-left: -50%;
+  }
+  .sub {
+    align-self: auto;
+    margin-top: 65%;
+    float: left;
+    flex-direction: column;
+  }
+  .button {
+    display: flex;
+    justify-content: center;
+    margin-left: 3%;
+  }
+  .clear,
+  .submit {
+    width: auto;
+  }
+  .address {
+    display: flex;
+    float: left;
+  }
+  .checkbox {
+    display: flex;
+    float: left;
+    margin-left: 7%;
+    flex-direction: column;
+  }
+  .radiofeild {
+    flex-direction: column;
+  }
+  input[type="email"] {
+    width: auto;
+    height: 30px;
+  }
+  input[type="text"] {
+    width: auto;
+    height: 30px;
+  }
+  input[type="tel"] {
+    width: auto;
+    height: 30px;
+  }
+  select {
+    width: auto;
+    height: 35px;
+  }
+}
