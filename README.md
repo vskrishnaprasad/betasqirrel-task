@@ -5,7 +5,19 @@ Assignments
 [live](https://kpmakonics.github.io/betasqirrel-task/)
 
 [stackoverflow](https://stackoverflow.com/users/21194323/krishnaprasad-v-s)
+
 [linkedin](https://www.linkedin.com/in/krishnaprasad-v-s-927458171)
+
+## Responsive details
+
+- xs(<576)
+- sm(>=576)
+- md(>=768)
+- lg(>=992)
+- xl(>=1200)
+- xxl(>=1400)
+- mobile `@media only screen and (max-width:767px) {}`
+- tablet `@media only screen and (max-width:991px) and (min-width:768px) {}`
 
 ## Linux-commands
 
