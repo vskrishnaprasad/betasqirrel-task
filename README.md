@@ -8,6 +8,8 @@ Assignments
 
 [linkedin](https://www.linkedin.com/in/krishnaprasad-v-s-927458171)
 
+[figma-design]()
+
 ## Responsive details
 
 - xs(<576)

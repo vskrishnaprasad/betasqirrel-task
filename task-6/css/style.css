@@ -60,15 +60,17 @@ img {
 }
 .flex {
   margin-right: 20px;
+  margin-top: -5px;
 }
 li {
   padding-left: 20px;
   padding-bottom: 0px;
   color: #55533a;
 }
-h4 {
+li h4 {
   display: flex;
   text-align: center;
+  padding-top: 8px;
 }
 ul {
   padding: 0px;
