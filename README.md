@@ -8,7 +8,9 @@ Assignments
 
 [linkedin](https://www.linkedin.com/in/krishnaprasad-v-s-927458171)
 
-[figma-design]()
+[figma-design-mobile](https://www.figma.com/file/3snZOUR3yAVhga42eiAR8y/carwash-mobile?node-id=1%3A2&t=maLO0lQYgpIbKwnv-1)
+
+[figma-design-desktop](https://www.figma.com/file/x2TPaUxWhfsD0gV9ca09kp/car-wash?node-id=0%3A1&t=NGdtcHSqP4AXDm0f-1)
 
 ## Responsive details
 
