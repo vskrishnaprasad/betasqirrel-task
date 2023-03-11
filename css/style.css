@@ -38,3 +38,15 @@ body {
 a:hover {
   background-color: lime;
 }
+@media only screen and (max-width: 767px) {
+  .text {
+    flex-direction: column;
+  }
+  .text a {
+    padding: 10px;
+  }
+  .box-1 h1 {
+    text-align: center;
+    font-size: 25px;
+  }
+}
