@@ -12,6 +12,17 @@ Assignments
 
 [figma-design-desktop](https://www.figma.com/file/x2TPaUxWhfsD0gV9ca09kp/car-wash?node-id=0%3A1&t=NGdtcHSqP4AXDm0f-1)
 
+## HTML input types
+
+- `type` ,`name`,`id` - main attributes of input types
+- `value`
+- `readonly`,`disabled`
+- `tel`,`email`
+- `placeholder`, `pattern`,`requerd`
+- `radio`,`checkbox`,`submit`,`reset`,`button`,`password`,`hideen`
+- `color`,`url`
+- `date`,`time`,`week`,`month`,`datetime-local` -`number`,`range`,`serch`.`image`
+
 ## Responsive details
 
 - xs(<576)
