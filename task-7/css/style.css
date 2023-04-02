@@ -13,7 +13,7 @@ body {
 }
 .second-box {
   background-color: rgb(221, 235, 234);
-  height: 490px;
+  height: 550px;
   width: 400px;
   margin: auto;
   padding-top: 80px;
@@ -28,7 +28,8 @@ body {
   text-align: center;
   margin: 10px;
 }
-.display input {
+.display-container {
+  background-color: rgb(143, 242, 199);
   width: 350px;
   height: 50px;
   margin-left: 10px;
@@ -41,4 +42,17 @@ img {
   width: 35px;
   height: 35px;
   padding: 5px;
+}
+.equals {
+  color: #fff;
+}
+.operator {
+  background-color: #6c757d;
+  color: #fff;
+}
+.clear {
+  background-color: rgb(163, 165, 165);
+  border-color: rgb(221, 235, 234);
+  color: darkred;
+  font-weight: bold;
 }

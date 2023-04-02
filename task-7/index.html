@@ -41,95 +41,234 @@
 
       <div class="second-box">
         <form>
-          <div class="display">
+          <!-- <div class="display">
             <input type="text" id="screen" placeholder="0" readonly />
-          </div>
-          <div>
+          </div> -->
+          <section class="calculator">
+            <div class="display-container">
+              <div class="display"></div>
+            </div>
+            <div class="btns">
+              <button
+                type="button"
+                class="btn btn-primary btn operator"
+                value="x"
+              >
+                x
+                <i class="fa-solid fa-xmark"></i>
+              </button>
+              <button
+                type="button"
+                class="btn btn-primary btn operator"
+                value="/"
+              >
+                /
+                <i class="fa-solid fa-divide"></i>
+              </button>
+              <button
+                type="button"
+                class="btn btn-primary btn operator"
+                value="-"
+              >
+                -
+                <i class="fa-solid fa-minus"></i>
+              </button>
+              <button
+                type="button"
+                class="btn btn-primary btn operator"
+                value="+"
+              >
+                +
+                <i class="fa-solid fa-plus"></i>
+              </button>
+              <button
+                type="button"
+                class="btn btn-secondary btn number"
+                value="9"
+              >
+                9
+              </button>
+              <button
+                type="button"
+                class="btn btn-secondary btn number"
+                value="8"
+              >
+                8
+              </button>
+              <button
+                type="button"
+                class="btn btn-secondary btn number"
+                value="7"
+              >
+                7
+              </button>
+              <button
+                type="button"
+                class="btn btn-secondary btn number"
+                value="6"
+              >
+                6
+              </button>
+              <button
+                type="button"
+                class="btn btn-secondary btn number"
+                value="5"
+              >
+                5
+              </button>
+              <button
+                type="button"
+                class="btn btn-secondary btn number"
+                value="4"
+              >
+                4
+              </button>
+              <button
+                type="button"
+                class="btn btn-secondary btn number"
+                value="3"
+              >
+                3
+              </button>
+              <button
+                type="button"
+                class="btn btn-secondary btn number"
+                value="2"
+              >
+                2
+              </button>
+              <button
+                type="button"
+                class="btn btn-secondary btn number"
+                value="1"
+              >
+                1
+              </button>
+              <button
+                type="button"
+                class="btn btn-secondary btn number"
+                value="0"
+              >
+                0
+              </button>
+              <button
+                type="button"
+                class="btn btn-secondary btn number"
+                value="."
+              >
+                .
+              </button>
+              <button
+                type="button"
+                class="btn btn-warning btn equals"
+                value="="
+              >
+                =
+                <i class="fa-solid fa-equals"></i>
+              </button>
+              <button type="button" class="btn btn-danger btn clear" value="C">
+                C
+                <i class="fa-solid fa-c"></i>
+              </button>
+            </div>
+          </section>
+          <!-- <div>
             <input
-              class="btn btn-light"
+              class="btn btn-light number"
               type="button"
               value="1"
               onclick="display('1')"
             />
             <input
-              class="btn btn-light"
+              class="btn btn-light number"
               type="button"
               value="2"
               onclick="display('2')"
             />
             <input
-              class="btn btn-light"
+              class="btn btn-light number"
               type="button"
               value="3"
               onclick="display('3')"
             />
             <input
-              class="btn btn-light"
+              class="btn btn-light number"
               type="button"
               value="4"
               onclick="display('4')"
             />
           </div>
           <input
-            class="btn btn-light"
+            class="btn btn-light number"
             type="button"
             value="5"
             onclick="display('5')"
           />
           <input
-            class="btn btn-light"
+            class="btn btn-light number"
             type="button"
             value="6"
             onclick="display('6')"
           />
           <input
-            class="btn btn-light"
+            class="btn btn-light number"
             type="button"
             value="7"
             onclick="display('7')"
           />
           <input
-            class="btn btn-light"
+            class="btn btn-light number"
             type="button"
             value="8"
             onclick="display('8')"
           />
           <input
-            class="btn btn-light"
+            class="btn btn-light number"
             type="button"
             value="9"
             onclick="display('9')"
           />
           <input
-            class="btn btn-light"
+            class="btn btn-light number"
             type="button"
             value="0"
             onclick="display('0')"
           />
           <input
-            class="btn btn-light"
+            class="btn btn-light op"
             type="button"
             value="+"
-            onclick="display('+')"
+            onclick="plus('+')"
           />
           <input
-            class="btn btn-light"
+            class="btn btn-light op"
             type="button"
             value="-"
-            onclick="display('-')"
+            onclick="minus('-')"
           />
           <input
-            class="btn btn-warning"
+            class="btn btn-light op"
+            type="button"
+            value="x"
+            onclick="multiply('x')"
+          /><input
+            class="btn btn-light op"
+            type="button"
+            value="/"
+            onclick="divide('/')"
+          />
+          <input
+            class="btn btn-warning clear"
             type="button"
             value="C"
             onclick="clearscreen('')"
           />
           <input
-            class="btn btn-light"
+            class="btn btn-light result"
             type="button"
             value="="
             onclick="calculate()"
-          />
+          /> -->
         </form>
       </div>
     </div>
