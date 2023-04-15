@@ -2,7 +2,7 @@
 
 Assignments
 
-[live](https://kpmakonics.github.io/betasqirrel-task/)
+[live](https://vskrishnaprasad.github.io/betasqirrel-task/)
 
 [stackoverflow](https://stackoverflow.com/users/21194323/krishnaprasad-v-s)
 
